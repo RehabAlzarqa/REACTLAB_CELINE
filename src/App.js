@@ -8,6 +8,7 @@ import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
 import React from "react";
 
+
 function App() {
   return (
     <ChakraProvider>

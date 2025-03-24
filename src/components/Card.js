@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
-const Card = ({ title, description, imageSrc }) => {
+const Card = ({ title, description, profilemage }) => {
   return (
     <VStack
       backgroundColor="white"
@@ -16,7 +16,7 @@ const Card = ({ title, description, imageSrc }) => {
     >
       {/* صورة المشروع */}
       <Image 
-        src={imageSrc} 
+        src={profilemage} 
         alt={title} 
         borderRadius="xl" 
         width="100%" 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
+import profileImage from '../image/profileImage.jpeg';  // تأكد من أن المسار صحيح
 
 // تعريف المتغيرات المطلوبة
 const greeting = "Hello, I am Rehab!";
@@ -17,9 +18,9 @@ const LandingSection = () => (
   >
     {/* الحاوية العمودية الأساسية */}
     <VStack spacing={16}>
-      {/* صورة الملف الشخصي */}
+      {/* عرض الصورة */}
       <Avatar 
-        src="https://i.pravatar.cc/150?img=7" 
+        src={profileImage}  // استخدام الصورة المستوردة هنا
         size="2xl" 
         name="Rehab"
       />
